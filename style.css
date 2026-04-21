@@ -350,7 +350,7 @@ footer p {
     }
 
     .title h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: bold;
     }
 
@@ -361,7 +361,7 @@ footer p {
 
     nav {
         margin: 0;
-        font-size: 1.3rem;
+        font-size: 0.9rem;
         font-weight: 600;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(22, 21, 21);
