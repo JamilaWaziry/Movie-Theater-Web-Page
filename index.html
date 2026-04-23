@@ -20,10 +20,12 @@
             <input type="search" placeholder="Search for a movie">
         </div>
         <nav>
-            <a href="#">Home</a>
-            <a href="#now">Now Showing</a>
-            <a href="#latest-news">Latest News</a>
-            <a href="#contact">Contact</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#now">Now Showing</a></li>
+                <li><a href="#latest-news">Latest News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
 
 
@@ -43,7 +45,7 @@
                     Endless Entertainment |Experience Movies Like Never Before!!
                 </p>
 
-                <button>Book Now</button>
+                <a href="#modal" class="btn">Book Now</a>
             </div>
 
 
@@ -207,6 +209,8 @@
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
+                <span class="loaction-icon"><i id="loaction-icon" class="fa-solid fa-location-dot"></i>Shahr e Naw,
+                    Kabul Afghanistan</span>
             </div>
 
             <form class="form">
@@ -229,5 +233,20 @@
 
     </main>
 </body>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+
+        <h2>Book Your Ticket 🎟</h2>
+
+        <form>
+            <input type="text" placeholder="Enter Movie Name">
+            <input type="text" placeholder="Enter Date and Time">
+            <button>Confirm Booking</button>
+        </form>
+
+    </div>
+</div>
 
 </html>
